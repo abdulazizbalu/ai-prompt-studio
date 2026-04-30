@@ -14,6 +14,8 @@ Complexity: **Level 1**
 
 AI Prompt Studio turns a rough idea into a structured prompt with objective, audience, context, output format, constraints, and quality checks.
 
+![Preview](./assets/preview.svg)
+
 ## Product Story
 
 This is the first layer of my AI workflow stack: better prompts, better outputs, less random guessing. It is built as a small browser tool because good AI work should feel fast and practical.
@@ -38,6 +40,14 @@ Open `public/index.html` in a browser.
 ## Live Demo
 
 `https://abdulazizbalu.github.io/ai-prompt-studio/`
+
+## Case Study
+
+**Problem:** people often ask AI vague questions and get vague answers.
+
+**Solution:** force the prompt into a useful structure: role, goal, audience, context, constraints, and quality checks.
+
+**What it shows:** prompt engineering fundamentals, clean JavaScript logic, and a simple product interface.
 
 ## Test
 
