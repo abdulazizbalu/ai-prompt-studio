@@ -1,0 +1,20 @@
+{
+  "name": "ai-prompt-studio",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A browser-based prompt engineering studio for turning rough ideas into structured AI prompts.",
+  "scripts": {
+    "test": "node tests/promptEngine.test.js"
+  },
+  "keywords": [
+    "ai",
+    "prompt-engineering",
+    "javascript",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
+

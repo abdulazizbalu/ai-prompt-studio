@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Prompt Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel">
+        <p class="eyebrow">AI Prompt Studio</p>
+        <h1>Turn rough ideas into structured AI prompts.</h1>
+        <label>Goal<textarea id="goal">Create a 30-day content plan for an AI productivity channel.</textarea></label>
+        <label>Audience<input id="audience" value="busy founders and creators" /></label>
+        <label>Context<textarea id="context">The content should teach useful workflows, not hype.</textarea></label>
+        <button id="generate">Generate Prompt</button>
+      </section>
+      <section class="panel output">
+        <div class="score" id="score">Score: 0/6</div>
+        <pre id="result"></pre>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
