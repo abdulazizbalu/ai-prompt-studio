@@ -1,0 +1,28 @@
+:root {
+  --bg: #020617;
+  --bg-elev: rgba(255, 255, 255, 0.045);
+  --border: rgba(229, 242, 255, 0.10);
+  --text: #e5f2ff;
+  --text-muted: #b9c6d6;
+  --accent: #22d3ee;
+  --accent-warm: #f59e0b;
+  --radius: 8px;
+  --font: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+}
+
+input,
+textarea,
+select,
+button {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: inherit;
+}
+
